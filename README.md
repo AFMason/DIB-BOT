@@ -26,6 +26,8 @@ For DIB-BOT V1, you can stop here and start playing around with it. However, if 
 
 -importance of calibration
 
+-writing code in Notepad++ with custom language filter
+
 ### Materials
 
 -pulling capillaries
@@ -55,6 +57,8 @@ Now you're ready to upgrade to v2 of DIB-BOT. This involves some hardware tinker
 -wiring up relay correctly
 
 -finding the correct pins to make it all work
+
+![FigureS1_circuit diagram motherboard connections-01](https://github.com/AFMason/DIB-BOT/assets/128661321/17172c1b-d2c9-4d4f-a399-a762b29b1975)
 
 ### Modifications to gcode
 
