@@ -56,11 +56,15 @@ Now you're ready to upgrade to v2 of DIB-BOT. This involves some hardware tinker
 -making the wire to connect Nanoject console to Ender3 motherboard
 
 -wiring up relay correctly
-![20230526_155936](https://github.com/AFMason/DIB-BOT/assets/128661321/b3af14db-5a54-4cb0-852e-8fed3a4e717d)
+![20230526_155846](https://github.com/AFMason/DIB-BOT/assets/128661321/dac3b652-3562-4d4e-b5a0-23ac1ca1b566)
+
 
 
 -finding the correct pins to make it all work
 ![20230526_160025](https://github.com/AFMason/DIB-BOT/assets/128661321/c862c96c-70e1-4dea-b7c3-f70e3169f6f9)
+Orange pin goes in Fan header
+Red in ??
+Black in ground (pin ? of ??)
 
 
 ![FigureS1_circuit diagram motherboard connections-01](https://github.com/AFMason/DIB-BOT/assets/128661321/17172c1b-d2c9-4d4f-a399-a762b29b1975)
