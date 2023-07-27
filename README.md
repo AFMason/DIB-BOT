@@ -1,5 +1,6 @@
 # DIB-BOT
 Your guide to building and using DIB-BOT. This guide assumes you do not have a 3D printer already, and you've bought a new Ender3 for this project. If you've already got a 3D printer you can obviously skip some of these steps, or you might need to adapt. Good luck!
+![Uploading 20230316_173502.jpg…]()
 
 ## Initial Setup
 Step 1:
@@ -55,8 +56,12 @@ Now you're ready to upgrade to v2 of DIB-BOT. This involves some hardware tinker
 -making the wire to connect Nanoject console to Ender3 motherboard
 
 -wiring up relay correctly
+![20230526_155936](https://github.com/AFMason/DIB-BOT/assets/128661321/b3af14db-5a54-4cb0-852e-8fed3a4e717d)
+
 
 -finding the correct pins to make it all work
+![20230526_160025](https://github.com/AFMason/DIB-BOT/assets/128661321/c862c96c-70e1-4dea-b7c3-f70e3169f6f9)
+
 
 ![FigureS1_circuit diagram motherboard connections-01](https://github.com/AFMason/DIB-BOT/assets/128661321/17172c1b-d2c9-4d4f-a399-a762b29b1975)
 
