@@ -53,9 +53,10 @@ Now you're ready to upgrade to v2 of DIB-BOT. This involves some hardware tinker
 
 ### Modifications to DIB-BOT
 
--making the wire to connect Nanoject console to Ender3 motherboard
+1. You need to make a wire that connects the NanojectII to the Ender3. One end of this is a standard 3.5 mm 2-pole connector (same as you would find on  wired headphones). You can find this part easily online or at your local hobby/electronics store (I bought one from Jaycar here in Australia for less than $1). You'll need to solder the ends of the wire to the terminals inthe 3.5 mm connector, I don't think the polarity matters as the action of closing the circuit triggers the NanojectII, but you can follow my example which definitely works.
+![FigureS1_circuit diagram motherboard connections-01](https://github.com/AFMason/DIB-BOT/assets/128661321/17172c1b-d2c9-4d4f-a399-a762b29b1975)
 
--wiring up relay correctly
+2. The other end of this cable will connect to the [CON2] screw connectors on the relay module (also from Jaycar, Cat# XC4419, 5V relay, $7.95). As per the above circuit diagram, connect one wire to the "common" screw, and the other to the "NO" screw (stands for normally open, ie the resting state is an open circuit).
 ![20230526_155846](https://github.com/AFMason/DIB-BOT/assets/128661321/dac3b652-3562-4d4e-b5a0-23ac1ca1b566)
 
 
@@ -67,7 +68,7 @@ Red in ??
 Black in ground (pin ? of ??)
 
 
-![FigureS1_circuit diagram motherboard connections-01](https://github.com/AFMason/DIB-BOT/assets/128661321/17172c1b-d2c9-4d4f-a399-a762b29b1975)
+
 
 ### Modifications to gcode
 
