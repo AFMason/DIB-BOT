@@ -33,13 +33,18 @@ For DIB-BOT V1, you can stop here and start playing around with it. However, if 
 
 -pulling capillaries
 
--preparing lipid solution
+2. Preparing lipid solutions: The "lipid-out" approach was employed, where lipids are dissolved in the oil phase. DPhPC was purchased from Sigma-Aldrich as a powder. The entire 200 mg vial was dissolved in chloroform to a concentration of 100 mg/ml. Aliquots of this stock solution were transferred to 2 mL glass HPLC vials and dried to a film under a stream of nitrogen. For example, 
 
--preparing aqueous solution(s)
+3. Preparing aqueous solutions: Full details can be found in the preprint, this depends on the experiment. Typically, aqueous solutions were buffered with ...
 
 ### Running a custom gcode print method
 
--loading capillary
+1. Load a pulled capillary: Remove the black plastic collet from the NanojectII and carefully remove the upper-most black O-ring from the stainless steel piston. You can do the following back-filling of the capillary in many different ways, but this worked best for me. The main thing is you want to fill the capillary with your oil phase without breaking the sharp end, and without introducing any air bubbles. First, I filled a 1 mL plastic syringe with hexadecane, and attached a blunt stainless steel 30g x 2" needle, gently depressing the plunger of the syringe to expel any air from the needle. Second, I placed the collect on the capillary before I pushed the black O-ring onto the blunt end of the pulled capillary and adjusted it to be 1-2 mm from the end (as this is where it will sit when it is inserted again in the Nanoject). I then back filled the pulled capillary, leaving a small amount to flow over the top of the blunt end. Using a kimwipe, I then gently blotted away any excess oil on the outside of the capillary and O-ring, but leaving the blunt aperture of the capillary with excess oil. Next, I carefully installed the capillary back onto the Nanoject, not tightening the collet too much. If there is any air in the capillary next to the stainless steel piston, do it again. Air bubbles are compressible and this can introduce issues with injection volume consistency, or failed injections (ie you press Inject and nothing comes out).
+
+Once the capillary is back-filled with hexadecane, press "Empty" on the Nanoject control until the air is expelled from the sharp end. Mount the Nanoject in the 3D-printed harness on the x-stage of the Ender3, *taking care to mount the Nanoject high, so that when the next calibration step is carried out, you need to lower it. If you don't have it high enough, it may crash during the initialisation, breaking your tip. Pulled capillaries vary in length so this is impossible to fix for now. Finally, unless you have upgraded to v3 with automated sample loading, you can load your aqueous sample.
+[insert image of correct loading height]
+
+2. 
 
 -tip calibration in z and x/y
 
