@@ -117,18 +117,19 @@ Now you're ready to upgrade to v2 of DIB-BOT. This involves some hardware tinker
 ### Modifications to DIB-BOT
 
 1. You need to make a wire that connects the NanojectII to the Ender3. One end of this is a standard 3.5 mm 2-pole connector (same as you would find on  wired headphones). You can find this part easily online or at your local hobby/electronics store (I bought one from Jaycar here in Australia for less than $1). You'll need to solder the ends of the wire to the terminals inthe 3.5 mm connector, I don't think the polarity matters as the action of closing the circuit triggers the NanojectII, but you can follow my example which definitely works.
-![FigureS1_circuit diagram motherboard connections-01](https://github.com/AFMason/DIB-BOT/assets/128661321/17172c1b-d2c9-4d4f-a399-a762b29b1975)
+![Artboard 1-100](https://github.com/AFMason/DIB-BOT/assets/128661321/43571f02-8461-4279-a26b-065c085cd708)
+
 
 2. The other end of this cable will connect to the [CON2] screw connectors on the relay module (also from Jaycar, Cat# XC4419, 5V relay, $7.95). As per the above circuit diagram, connect one wire to the "common" screw, and the other to the "NO" screw (stands for normally open, ie the resting state is an open circuit).
 ![20230526_155846](https://github.com/AFMason/DIB-BOT/assets/128661321/dac3b652-3562-4d4e-b5a0-23ac1ca1b566)
 
 
+3. Then connect using female-female jumper leads the relay to the Ender3 motherboard, as per the circuit diagram above and photo below.
 
--finding the correct pins to make it all work
 ![20230526_160025](https://github.com/AFMason/DIB-BOT/assets/128661321/c862c96c-70e1-4dea-b7c3-f70e3169f6f9)
-Orange pin goes in Fan header
-Red in ??
-Black in ground (pin ? of ??)
+Orange wire from "S" (signal) on relay connects to negative terminal of FAN1
+Red wire from "V" (supply voltage) on relay connects to Pin 2, denoted V, on the BLTouch header
+Black wire from "G" (ground) on relay connects to Pin 1, denoted G, on the BLTouch header
 
 
 
